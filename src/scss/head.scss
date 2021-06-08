@@ -1,0 +1,123 @@
+.head {
+  background: url("../img/head/bg.jpg") no-repeat center / cover;
+  padding: 0px 0px 365px 0px;
+  position: relative;
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.75);
+    width: 150px;
+    height: 100%;
+    padding: 0px 0px 200px 0px;
+  }
+  &__contacts-social {
+    display: flex;
+    flex-direction: column;
+  }
+  &__contacts-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 210px 0px 0px 0px;
+  }
+  &__contacts-item {
+    margin: 0px 0px 48px 0px;
+    cursor: pointer;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  &__contacts-title {
+    text-transform: uppercase;
+    position: relative;
+    width: 365px;
+    height: 100%;
+    padding: 0px 0px 0px 120px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    transform: rotate(-90deg);
+    &::before {
+      content: '';
+      background-color: #C4C4C4;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      height: 3px;
+      width: 80px;
+    }
+  }
+  &__contacts-item {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__content {
+    display: flex;
+  }
+  &__info {
+    padding: 120px 0px 0px 0px;
+  }
+  &__slider-items {
+    width: 370px;
+    overflow: hidden;
+  }
+  &__slider-line {
+    display: flex;
+    transition: 0.3s ease all;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    margin: 0px 0px 30px 0px;
+  }
+  &__text {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0px 0px 45px 0px;
+  }
+  &__slider {
+    margin: 0px 75px 0px 125px;
+  }  
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+  }
+  &__nav-prev {
+    span {
+      padding: 4px 0px 0px 20px;
+    }
+  }
+  &__nav-next {
+    span {
+      padding: 4px 20px 0px 0px;
+    }
+  }
+}
+
+
+
+  
+
+
+

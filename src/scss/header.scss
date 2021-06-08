@@ -1,0 +1,33 @@
+.header {
+  margin: 0px 0px 185px 0px;
+  &__content {
+    padding: 51px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav-items {
+    display: flex;
+  }
+
+  &__nav-item {
+    position: relative;
+    text-transform: uppercase;
+    margin: 0px 63px 0px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 0px 0px 10px 0px;
+  }
+
+  &__phone {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 0px 0px 10px 0px;
+  }
+}
+
+
+

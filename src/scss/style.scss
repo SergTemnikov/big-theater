@@ -1,0 +1,28 @@
+@import 'null';
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+
+//=================================================================================================
+body {
+  color: #fff;
+  font-family: 'OpenSansCondensed';
+}
+
+a{
+  color: #fff;
+}
+.container{
+  max-width: $maxWidthContainer;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+//=================================================================================================
+@import 'header';
+@import 'footer';
+@import 'popup';
+@import 'icons';
+@import 'head';
+@import 'about';
+@import 'ui';
