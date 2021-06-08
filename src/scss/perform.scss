@@ -1,0 +1,45 @@
+.perform {
+  background: #333333;
+  &__content {
+    padding: 150px 0px 0px 0px;
+  }
+
+  &__title {
+    margin: 0px 0px 100px 0px;
+  }
+
+  &__slider {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 442px;
+    height: 550px;
+    &:first-child {
+      background: url('../img/perform/oscar.jpg') no-repeat center / cover;
+    }
+    &:nth-child(2) {
+      background: url('../img/perform/Arka.jpg') no-repeat center / cover;
+    }
+    &:nth-child(3) {
+      background: url('../img/perform/grammofon.jpg') no-repeat center / cover;
+    }
+    &:last-child {
+      background: url('../img/perform/nutcracker.jpg') no-repeat center / cover;
+    }
+    
+  }
+  
+  &__search-btn {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 35px;
+    background-color: #D1A954;
+    border-radius: 50%;
+  }
+}

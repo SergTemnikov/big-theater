@@ -26,3 +26,5 @@
 
             @include font("Lato", "LatoRegular", "400", "normal");
             @include font("Lato", "LatoBold", "700", "normal");
+            
+5. To start enter 'gulp' in console
